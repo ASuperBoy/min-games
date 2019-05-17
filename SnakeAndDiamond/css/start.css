@@ -1,0 +1,63 @@
+#main {
+	position: absolute;
+	z-index: -1;
+	display: block;
+}
+#start,
+#end{
+	width: 300px;
+	height: 500px;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.btn {
+	position: absolute;
+	left: 150px;
+	top: 250px;
+	margin-left: -50px;
+	margin-top: -15px;
+	width: 100px;
+	height: 30px;
+	background-color: honeydew;
+	border-style: none;
+	border-radius: 15px;
+	border-shadow: 3px 3px 2px;
+	outline: none;
+	cursor: pointer;
+}
+.btn:hover {
+	background-color: blue;
+}
+.btn:active {
+	background-color: darkblue;
+}
+#end {
+	display: none;
+}
+#end p,
+#result{
+	position: absolute;
+	left: 150px;
+	top: 100px;
+	margin-left: -60px;
+	margin-top: -21px;
+	width: 120px;
+	height: 42px;
+	color: red;
+	font-size: 30px;
+}
+#end #show-result,
+#result{
+	left: 175px;
+	top: 170px;
+	color: black;
+	font-size: 16px;
+}
+#result {
+	top: 190px;
+	color: red;
+	font-size: 30px;
+}
+#score {
+	position: absolute;
+	color: red;
+}
